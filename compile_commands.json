@@ -1,0 +1,1114 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-DDUCKDB",
+      "-DDUCKDB_BUILD_LIBRARY",
+      "-DDUCKDB_EXTENSION_JEMALLOC_LINKED=1",
+      "-DDUCKDB_EXTENSION_PARQUET_LINKED=1",
+      "-DDUCKDB_EXTENSION_PIXELS_LINKED=1",
+      "-DDUCKDB_EXTENSION_TPCH_LINKED=1",
+      "-DDUCKDB_MAIN_LIBRARY",
+      "-DGENERATED_EXTENSION_HEADERS=1",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/src/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/fsst",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/fmt/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/hyperloglog",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/fastpforlib",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/skiplist",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/fast_float",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/re2",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/miniz",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/utf8proc/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/concurrentqueue",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/pcg",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/tdigest",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/mbedtls/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/jaro_winkler",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/yyjson/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/extension",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/extension/parquet/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/extension/tpch/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/extension/jemalloc/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/src/main/extension/../../../third_party/httplib",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/codegen/include",
+      "-g",
+      "-g",
+      "-O0",
+      "-DDEBUG",
+      "-Wall",
+      "-fsanitize=undefined",
+      "-fno-sanitize-recover=all",
+      "-Wunused",
+      "-Werror=vla",
+      "-Wnarrowing",
+      "-pedantic",
+      "-Wextra",
+      "-Wno-unused-parameter",
+      "-Wno-redundant-move",
+      "-Wimplicit-fallthrough",
+      "-fPIC",
+      "-std=c++11",
+      "-c",
+      "-o",
+      "CMakeFiles/duckdb_generated_extension_loader.dir/__/__/__/codegen/src/generated_extension_loader.cpp.o",
+      "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/codegen/src/generated_extension_loader.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/src/main/extension",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/codegen/src/generated_extension_loader.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/src/main/extension/CMakeFiles/duckdb_generated_extension_loader.dir/__/__/__/codegen/src/generated_extension_loader.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-DDUCKDB",
+      "-DDUCKDB_BUILD_LIBRARY",
+      "-DDUCKDB_EXTENSION_JEMALLOC_LINKED=1",
+      "-DDUCKDB_EXTENSION_PARQUET_LINKED=1",
+      "-DDUCKDB_EXTENSION_PIXELS_LINKED=1",
+      "-DDUCKDB_EXTENSION_TPCH_LINKED=1",
+      "-DDUCKDB_MAIN_LIBRARY",
+      "-DGENERATED_EXTENSION_HEADERS=1",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/src/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/fsst",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/fmt/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/hyperloglog",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/fastpforlib",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/skiplist",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/fast_float",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/re2",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/miniz",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/utf8proc/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/concurrentqueue",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/pcg",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/tdigest",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/mbedtls/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/jaro_winkler",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/yyjson/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/extension",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/extension/parquet/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/extension/tpch/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/extension/jemalloc/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/src/main/extension/../../../third_party/httplib",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/codegen/include",
+      "-g",
+      "-g",
+      "-O0",
+      "-DDEBUG",
+      "-Wall",
+      "-fsanitize=undefined",
+      "-fno-sanitize-recover=all",
+      "-Wunused",
+      "-Werror=vla",
+      "-Wnarrowing",
+      "-pedantic",
+      "-Wextra",
+      "-Wno-unused-parameter",
+      "-Wno-redundant-move",
+      "-Wimplicit-fallthrough",
+      "-fPIC",
+      "-std=c++11",
+      "-c",
+      "-o",
+      "CMakeFiles/duckdb_main_extension.dir/ub_duckdb_main_extension.cpp.o",
+      "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/src/main/extension/ub_duckdb_main_extension.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/src/main/extension",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/src/main/extension/ub_duckdb_main_extension.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/src/main/extension/CMakeFiles/duckdb_main_extension.dir/ub_duckdb_main_extension.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "check_cxx11.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/check_cxx11.cpp"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "builtins.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/builtins.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "class.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/class.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "command.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/command.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "compile.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/compile.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "constants.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/constants.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "cwd.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/cwd.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "debug.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/debug.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "debugger.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/debugger.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "execcmd.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/execcmd.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "filesys.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/filesys.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "frames.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/frames.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "function.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/function.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "glob.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/glob.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "hash.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/hash.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "hcache.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/hcache.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "hdrmacro.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/hdrmacro.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "headers.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/headers.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "jam.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/jam.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "jamgram.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/jamgram.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "lists.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/lists.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "make.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/make.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "make1.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/make1.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "md5.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/md5.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "mem.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/mem.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "modules.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/modules.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "native.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/native.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "object.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/object.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "option.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/option.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "output.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/output.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "parse.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/parse.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "pathsys.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/pathsys.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "regexp.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/regexp.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "rules.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/rules.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "scan.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/scan.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "search.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/search.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "jam_strings.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/jam_strings.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "startup.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/startup.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "subst.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/subst.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "sysinfo.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/sysinfo.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "timestamp.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/timestamp.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "variable.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/variable.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "w32_getreg.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/w32_getreg.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "modules/order.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/modules/order.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "modules/path.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/modules/path.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "modules/property-set.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/modules/property-set.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "modules/regex.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/modules/regex.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "modules/sequence.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/modules/sequence.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "modules/set.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/modules/set.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "execunix.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/execunix.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "fileunix.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/fileunix.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-x",
+      "c++",
+      "-std=c++11",
+      "-O2",
+      "-DNDEBUG",
+      "-o",
+      "b2",
+      "pathunix.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/pathunix.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-cli/boost/tools/build/src/engine/b2"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-DDUCKDB_BUILD_DIRECTORY=\"/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug\"",
+      "-DDUCKDB_BUILD_LIBRARY",
+      "-DDUCKDB_EXTENSION_JEMALLOC_LINKED=1",
+      "-DDUCKDB_EXTENSION_PARQUET_LINKED=1",
+      "-DDUCKDB_EXTENSION_PIXELS_LINKED=1",
+      "-DDUCKDB_EXTENSION_TPCH_LINKED=1",
+      "-DDUCKDB_ROOT_DIRECTORY=\"/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb\"",
+      "-DEXT_VERSION_JEMALLOC=\"v0.0.1\"",
+      "-DEXT_VERSION_PARQUET=\"v0.0.1\"",
+      "-DEXT_VERSION_TPCH=\"v0.0.1\"",
+      "-DGENERATED_EXTENSION_HEADERS=1",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/src/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/fsst",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/fmt/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/hyperloglog",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/fastpforlib",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/skiplist",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/fast_float",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/re2",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/miniz",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/utf8proc/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/concurrentqueue",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/pcg",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/tdigest",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/mbedtls/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/jaro_winkler",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/yyjson/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/test/../third_party/catch",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/test/../third_party/tpce-tool/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/test/../third_party/sqlite/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/test/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/codegen/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/extension",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/extension/parquet/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/extension/tpch/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/extension/jemalloc/include",
+      "-g",
+      "-g",
+      "-O0",
+      "-DDEBUG",
+      "-Wall",
+      "-fsanitize=undefined",
+      "-fno-sanitize-recover=all",
+      "-Wunused",
+      "-Werror=vla",
+      "-Wnarrowing",
+      "-pedantic",
+      "-fPIC",
+      "-std=c++11",
+      "-c",
+      "-o",
+      "CMakeFiles/test_sqlite.dir/ub_test_sqlite.cpp.o",
+      "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/test/sqlite/ub_test_sqlite.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/test/sqlite",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/test/sqlite/ub_test_sqlite.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/test/sqlite/CMakeFiles/test_sqlite.dir/ub_test_sqlite.cpp.o"
+  },
+  {
+    "arguments": [
+      "/usr/bin/c++",
+      "-DDUCKDB_BUILD_LIBRARY",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/src/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/fsst",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/fmt/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/hyperloglog",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/fastpforlib",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/skiplist",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/fast_float",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/re2",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/miniz",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/utf8proc/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/concurrentqueue",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/pcg",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/tdigest",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/mbedtls/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/jaro_winkler",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-duckdb/third_party/yyjson/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/third-party/protobuf/cmake/build/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-core/../pixels-common/liburing/src/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-core/../pixels-common/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-core/include",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-core/include/writer",
+      "-I/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-core/../pixels_duckdb/src/include",
+      "-mavx2",
+      "-g",
+      "-g",
+      "-O0",
+      "-DDEBUG",
+      "-Wall",
+      "-fsanitize=undefined",
+      "-fno-sanitize-recover=all",
+      "-Wunused",
+      "-Werror=vla",
+      "-Wnarrowing",
+      "-pedantic",
+      "-fPIC",
+      "-std=c++14",
+      "-c",
+      "-o",
+      "CMakeFiles/pixels-core.dir/lib/writer/DecimalColumnWriter.cpp.o",
+      "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-core/lib/writer/DecimalColumnWriter.cpp"
+    ],
+    "directory": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-core",
+    "file": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/pixels-core/lib/writer/DecimalColumnWriter.cpp",
+    "output": "/mnt/d/codenew/School_3-1/DataBase/test/mini-pixels/build/debug/extension/pixels/pixels-core/CMakeFiles/pixels-core.dir/lib/writer/DecimalColumnWriter.cpp.o"
+  }
+]

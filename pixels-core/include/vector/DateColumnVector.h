@@ -21,12 +21,15 @@ public:
     * Use this constructor by default. All column vectors
     * should normally be the default size.
 	 */
-	explicit DateColumnVector(uint64_t len = VectorizedRowBatch::DEFAULT_SIZE, bool encoding = false);
+	explicit DateColumnVector(uint64_t len = VectorizedRowBatch::DEFAULT_SIZE, bool encoding = true);
 	~DateColumnVector();
     void * current() override;
 	void print(int rowCount) override;
 	void close() override;
 	void set(int elementNum, int days);
+	void add(int value) override;
+	void add(std::string &value) override;
+	void ensureSize(uint64_t size, bool preserveData) override;
 };
 
 #endif // DUCKDB_DATECOLUMNVECTOR_H

@@ -25,5 +25,8 @@ public:
     void close() override;
 private:
     bool isLong;
+    void add(long value) override;
+	void add(std::string &value) override;
+	void ensureSize(uint64_t size, bool preserveData) override;
 };
 #endif //DUCKDB_TIMESTAMPCOLUMNVECTOR_H
